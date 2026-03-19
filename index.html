@@ -420,7 +420,8 @@
             <p style="font-size: 1.2rem; color: #555; margin-bottom: 30px;">
                <b> Welcome, Explorer! 🌏</b> 
                <b>I have hidden <span class="highlight-orange">6 wonders</span> on the map of <span class="highlight-orange">China</span>. </b>
-               <b>Tell me which one you want to find first!</b>
+               <br />
+                <b>Tell me which one you want to find first!</b>
             </p>
             <button class="btn btn-start" onclick="goToMap()">Start Exploring! 🚀</button>
         </div>
@@ -461,10 +462,10 @@
 
                     <!-- 步驟 2: 英文問句 -->
                     <div class="question-box hidden" id="step2">
-                        <p style="font-size: 1.1rem;">Great! Now, ask me about its size. <br><small>(Hint: Type "How long is it?" or "How high is it?")</small></p>
+                        <p style="font-size: 1.1rem;">Great! Now, ask me about its size. <br></p>
                         <input type="text" id="questionInput" placeholder="Type your question here...">
                         <br>
-                        <button class="btn" style="background: var(--primary);" onclick="checkQuestion()">Ask Teacher 🙋</button>
+                        <button class="btn" style="background: var(--primary);" onclick="checkQuestion()">Ask a local student 🙋</button>
                         <div class="error-msg" id="questionError"></div>
                     </div>
 
